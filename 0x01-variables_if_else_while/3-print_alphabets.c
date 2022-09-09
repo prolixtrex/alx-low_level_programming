@@ -2,16 +2,16 @@
 #include <ctype.h>
 
 /**
- * main - Entry point for the program
+ * main - Entry point 
  *
- * Return: 0 for succesful
+ * Return: 0 succesful
  */
 
 int main(void)
 {
 	int x;
 
-	for (x = 'A', x <= 'Z'; x++)
+	for (x = 'A'; x <= 'Z'; x++)
 	{
 		putchar(tolower(x));
 		putchar(x);

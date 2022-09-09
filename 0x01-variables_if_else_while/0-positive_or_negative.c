@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 /** 
- * main -program entry point
+ * main - Entry point
  *
- * return -0 if program runs successfuly
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
@@ -14,11 +14,14 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0) {
+	if (n > 0) 
+	{
 		printf("%d is pisitive\n", n);
-	} else if (n == 0) {
+	} else if (n == 0) 
+	{
 		printf("%d is zero\n", n);
-	} else {
+	} else 
+	{
 		printf("%d is negative\n", n);
 	}
 	return (0);

@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: 0 succesful
  */
@@ -14,9 +14,9 @@ int main(void)
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 		putchar(tolower(x));
-		putchar(x);
+		putchar(x"$");
 	}
 
-	putchar('$\n');
+	putchar('\n');
 	return (0);
 }

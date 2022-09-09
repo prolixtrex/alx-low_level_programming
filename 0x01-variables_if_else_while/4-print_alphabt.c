@@ -16,6 +16,8 @@ int main(void)
 		if (x == 'e' || x == 'q')
 		{
 			x += 1;
+		} else
+		{
 			putchar(x);
 		}
 	}

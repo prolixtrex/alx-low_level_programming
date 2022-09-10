@@ -11,13 +11,17 @@ int main(void)
 {
 	int x;
 
-	for (x = 0; x <= 8; x++)
+	for (x = 48; x <= 57; x++)
 	{
-		putchar(x % 10 + '0');
-		putchar(", ");
+		putchar(x);
+
+		if (x != 57)
+		{
+			putchar(44); /* represents comma in ascii */
+			putchar(32); /* represents space in ascii */
+		}
 	}
 
-	putchar('9');
 	putchar('\n');
 	return (0);
 }

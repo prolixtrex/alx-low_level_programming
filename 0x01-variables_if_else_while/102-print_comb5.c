@@ -9,8 +9,9 @@
 
 int main(void)
 {
-	int a, b, x, y;
+	int a, b, x, y, z;
 
+	z = 48;
 	x = 44; /* comma separator */
 	y = 32; /* space separato */
 
@@ -18,11 +19,11 @@ int main(void)
 	{
 		for (b = a + 1; b <= 99; b++)
 		{
-			putchar((a / 10) + '48');
-			putchar((a % 10) + '48');
+			putchar((a / 10) + z);
+			putchar((a % 10) + z);
 			putchar(y);
-			putchar((b / 10) + '48');
-			putchar((b % 10) + '48');
+			putchar((b / 10) + z);
+			putchar((b % 10) + z);
 
 			if (a != 98 || b != 99)
 			{

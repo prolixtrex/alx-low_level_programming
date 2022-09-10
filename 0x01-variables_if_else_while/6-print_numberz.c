@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctyp.h>
+#include <ctype.h>
 
 /**
  * main - program that prints all single digits of number 10

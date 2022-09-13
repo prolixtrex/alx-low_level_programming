@@ -3,7 +3,7 @@
 
 /**
  * _abs - a function that returns the absolute value of the input
- * @int: the value to check
+ * @c: the value to check
  * Return: return value
  */
 

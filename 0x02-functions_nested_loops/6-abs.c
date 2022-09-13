@@ -7,7 +7,7 @@
  * Return: return value
  */
 
-int _abs(int)
+int _abs(int c)
 {
-	return (abs(int));
+	return (abs(c));
 }

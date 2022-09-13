@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -10,7 +11,7 @@ int _islower(int c)
 {
 	int ret;
 
-	if (islower(c) == 1)
+	if (islower(c) != 0)
 	{
 		ret = 1;
 	} else

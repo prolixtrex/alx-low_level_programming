@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 8)
 	{
-		_putchar(word);
+		_putchar(word[i]);
 		i++;
 	}
 

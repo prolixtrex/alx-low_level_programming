@@ -31,10 +31,10 @@ int largest_number(int a, int b, int c)
 	{
 		if (b > c)
 		{
-			largest = b
+			largest = b;
 		} else
 		{
-			largest = c
+			largest = c;
 		}
 	}
 	return (largest);

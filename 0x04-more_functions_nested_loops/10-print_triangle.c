@@ -14,25 +14,22 @@ void print_triangle(int size)
 		_putchar('\n');
 	} else
 	{
-		i = 0;
-		while (i < size)
+		i = 1;
+		while (i <= size)
 		{
-			j = size - 1;
-			while (j > 0)
+			j = size;
+			while (j >= 1)
 			{
-				_putchar(' ');
-				j--;
+				if (i < j)
+				{
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar('#');
+				}
+				i++;
 			}
-
-			k = 1;
-			while (k <= size)
-			{
-				_putchar('#');
-				j++;
-			}
-
-			_putchar('\n');
-			i++;
 		}
 	}
 }

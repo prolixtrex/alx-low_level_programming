@@ -11,20 +11,19 @@
 void print_rev(char *s)
 {
 	char temp;
-	int i, j;
+	int i, j, count;
 
-	i = 0;
-	j = strlen(s) - 1;
-
-	while (i < j)
+	while (s[count] != '\0')
 	{
-		temp = s[j];
-		s[j] = s[i];
-		s[i] = temp;
+		count++;
+	}
 
-		i++;
+	j = count - 1;
+	for (i = 0; i < count; i++)
+	{
+		temp[i] =  s[j];
 		j--;
 	}
 
-	puts(s);
+	puts(temp);
 }

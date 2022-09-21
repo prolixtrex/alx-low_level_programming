@@ -11,14 +11,13 @@
 int _strcmp(char *s1, char *s2)
 {
 	int ret;
+	int comp = strcmp(s1, s2);
 
-	strcmp(s1, s2);
-
-	if (strcmp > 0)
+	if (comp > 0)
 	{
 		ret = 15;
 	}
-	else if (strcmp < 0)
+	else if (comp < 0)
 	{
 		ret = -15;
 	}

@@ -11,7 +11,7 @@
 int _strcmp(char *s1, char *s2)
 {
 	int ret;
-	int comp = strcmp(s1, s2);
+	int comp = strcmp(s2, s1);
 
 	if (comp > 0)
 	{

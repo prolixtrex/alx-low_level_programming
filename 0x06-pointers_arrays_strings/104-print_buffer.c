@@ -32,9 +32,9 @@ void print_buffer(char *b, int size)
 				printf("  ");
 			i++;
 			if (i % 2 == 0)
-			printf(" ");
+				printf(" ");
 			if (i % 10 == 0)
-			break;
+				break;
 		}
 		while (j < size)
 		{
@@ -42,7 +42,7 @@ void print_buffer(char *b, int size)
 				printf(".");
 			else
 				printf("%c", b[j]);
-				j++;
+			j++;
 			if (j % 10 == 0)
 				break;
 		}

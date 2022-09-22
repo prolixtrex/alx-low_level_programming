@@ -12,9 +12,9 @@ char *cap_string(char *str)
 	char sep[] = " \t\n,;.!?\"(){}";
 
 	i = 1;
-	if (str[i] >= 'a' && str[i] <= 'z')
+	if (str[0] >= 'a' && str[0] <= 'z')
 	{
-		str[i] -= ('a' - 'A');
+		str[0] -= ('a' - 'A');
 	}
 
 	while (str[i] != '\0')

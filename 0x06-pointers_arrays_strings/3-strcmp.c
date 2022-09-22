@@ -11,20 +11,14 @@
 int _strcmp(char *s1, char *s2)
 {
 	int ret;
-	int comp = strcmp(s2, s1);
+	int i = 0;
 
-	if (comp > 0)
-	{
-		ret = 15;
-	}
-	else if (comp < 0)
-	{
-		ret = -15;
-	}
+	while (*(s1 + i) == *(s2 + i) && *(s1 + i))
+	i++;
+
+	if (*(s2 + i))
+		ret = (*(s1 + i) - *(s2 + i));
 	else
-	{
 		ret = 0;
-	}
-
 	return (ret);
 }

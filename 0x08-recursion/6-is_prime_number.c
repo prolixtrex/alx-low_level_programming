@@ -14,7 +14,7 @@ int prime(int n, int i)
 	else if (n % i)
 		return (1);
 	else
-		return (prime(n, i + 1);
+		return (prime(n, i + 1));
 }
 
 /**

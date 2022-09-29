@@ -9,9 +9,9 @@
 
 int prime(int n, int i)
 {
-	if (n == i)
+	if (n == i || n == 1)
 		return (0);
-	else if (n % i)
+	else if (n % i == )
 		return (1);
 	else
 		return (prime(n, i + 1));

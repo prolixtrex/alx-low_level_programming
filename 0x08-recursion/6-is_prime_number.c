@@ -9,15 +9,19 @@
 
 int prime(int n, int i)
 {
+	int res;
+
 	if (n != i)
 	{
 		if (n <= 1 || (n % i) == 0)
-			return (0);
+			res = 0;
 	}
 
 	if ((n % i) == 0 && n >= i)
-		return (1);
+		res = 1;
 	prime(n, i + 1);
+
+	return (res);
 }
 
 /**

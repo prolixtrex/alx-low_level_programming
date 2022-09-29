@@ -7,7 +7,7 @@
  * Return: 1 for prime numbers, otherwise 0
  */
 
-int prime(int n, i)
+int prime(int n, int i)
 {
 	if (n != i)
 	{

@@ -30,7 +30,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 			return (NULL);
 		for (i = 0; i < oled_size && i < new_size)
 			*((char *)p + 1) = *((char *)ptr + 1);
-		free(ptr)
+		free(ptr);
 	}
 
 	return (ptr);

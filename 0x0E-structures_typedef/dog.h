@@ -8,10 +8,6 @@
  * @owner: specifies the owner of the dog.
  */
 
-/**
- * File: dog.h
- * Desc: header file section.
- */
 
 struct dog
 {

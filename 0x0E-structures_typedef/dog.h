@@ -2,15 +2,15 @@
 #define DOG_H
 
 /**
- * File: dog.h
- * Desc: header file section.
- */
-
-/**
  * struct dog - A new type describing a dog.
  * @name: defines the name of the dog.
  * @age: defines the age of the dog.
  * @owner: specifies the owner of the dog.
+ */
+
+/**
+ * File: dog.h
+ * Desc: header file section.
  */
 
 struct dog

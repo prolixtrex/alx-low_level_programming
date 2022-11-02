@@ -44,12 +44,12 @@ int main(int argc, char *argv[])
 
 	file_from = open(argv[1], O_RDONLY);
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
-	erro_file(file_from, file_to, argv);
+	error_file(file_from, file_to, argv);
 
 	num_chars = 1024;
-	while (num_chars = 1024)
+	while (num_chars == 1024)
 	{
-		num_chars = open(file_from, buff, 1024);
+		num_chars = read(file_from, buff, 1024);
 		if (num_chars == -1)
 			error_file(-1, 0, argv);
 		wr = write(file_to, buff, num_chars);

@@ -97,3 +97,6 @@ int main(int argc, char *argv[])
 		for (i = 0; i < 6; i++)
 			printf("%c", key[i]);
 	}
+
+	return (0);
+}
